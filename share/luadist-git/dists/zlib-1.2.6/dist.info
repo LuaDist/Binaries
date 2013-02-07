@@ -1,0 +1,25 @@
+type = "x86_64"
+arch = "Darwin"
+author = "Jean-loup Gailly and Mark Adler"
+desc = "zlib is a general purpose data compression library."
+name = "zlib"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/libz.dylib]],
+}
+,
+Documentation = {
+[[share/zlib/doc/man/man3/zlib.3]],
+}
+,
+Header = {
+[[include/zconf.h]],
+[[include/zlib.h]],
+}
+,
+}
+
+license = "zlib license"
+version = "1.2.6"
+url = "http://zlib.net"

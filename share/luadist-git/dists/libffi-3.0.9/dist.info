@@ -1,0 +1,34 @@
+type = "x86_64"
+arch = "Darwin"
+author = "Anthony Green"
+desc = "FFI stands for Foreign Function Interface. A foreign function interface is the popular name for the interface that allows code written in one language to call code written in another language."
+name = "libffi"
+maintainer = "Peter Drahos"
+files = {
+Runtime = {
+[[lib/libffi.dylib]],
+}
+,
+Documentation = {
+[[share/libffi/doc//libffi.info]],
+[[share/libffi/doc//libffi.texi]],
+[[share/libffi/doc//stamp-vti]],
+[[share/libffi/doc//version.texi]],
+}
+,
+Header = {
+[[include/ffi.h]],
+[[include/fficonfig.h]],
+[[include/ffitarget.h]],
+}
+,
+Data = {
+[[share/libffi/LICENSE]],
+[[share/libffi/README]],
+}
+,
+}
+
+license = "MIT"
+version = "3.0.9"
+url = "http://sourceware.org/libffi/"
