@@ -1,0 +1,45 @@
+type = "x86_64"
+arch = "Linux"
+author = "Reuben Thomas, Shmuel Zeigerman"
+desc = "a Lua 5.1 and 5.2 binding of TRE regex library API"
+name = "lrexlib"
+maintainer = "Peter Kapec"
+files = {
+Test = {
+[[share/lrexlib/test//emacs_sets.lua]],
+[[share/lrexlib/test//posix_sets.lua]],
+[[share/lrexlib/test//README]],
+[[share/lrexlib/test//pat2pcre.lua]],
+[[share/lrexlib/test//pcre_sets.lua]],
+[[share/lrexlib/test//tre_sets.lua]],
+[[share/lrexlib/test//pcre_sets2.lua]],
+[[share/lrexlib/test//gnu_sets.lua]],
+[[share/lrexlib/test//scite.properties]],
+[[share/lrexlib/test//oniguruma_sets.lua]],
+[[share/lrexlib/test//luatest.lua]],
+[[share/lrexlib/test//common_sets.lua]],
+[[share/lrexlib/test//spencer_sets.lua]],
+[[share/lrexlib/test//runtest.lua]],
+}
+,
+Documentation = {
+[[share/lrexlib/doc//manual.txt]],
+[[share/lrexlib/doc//Makefile]],
+[[share/lrexlib/doc//SciTE.properties]],
+[[share/lrexlib/doc//license.html]],
+[[share/lrexlib/doc//html4css1.css]],
+[[share/lrexlib/doc//.gitignore]],
+[[share/lrexlib/doc//lrexlib.css]],
+}
+,
+Data = {
+[[share/lrexlib/LICENSE]],
+[[share/lrexlib/NEWS]],
+[[share/lrexlib/README.rst]],
+}
+,
+}
+
+license = "MIT"
+version = "2.7.1"
+url = "https://github.com/rrthomas/lrexlib"
